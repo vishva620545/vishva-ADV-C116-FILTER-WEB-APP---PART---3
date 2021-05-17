@@ -1,0 +1,27 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px palevioletred;}
+    to{box-shadow: 1px 1px 38px yellowgreen;}
+}
+
+.background
+{
+    background-image:url("https://h9o79seeyuzdhh4a2vujbq-on.drv.tw/project-C114-C116.com/lipstick/lipstick_bg.png") ;
+}
